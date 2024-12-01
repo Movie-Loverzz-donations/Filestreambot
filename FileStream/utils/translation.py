@@ -28,7 +28,7 @@ class LANG(object):
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <b>{}</b>\n
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <code>{}</code>\n
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> {}\n
-<b>🖥 Wᴀᴛᴄʜ :</b> <{}\n
+<b>🖥 Wᴀᴛᴄʜ :</b> {}\n
 <b>🔗 Bot Nachithe friends ki share cheyi Mawa\n"""
 
     STREAM_TEXT_X = """
