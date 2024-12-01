@@ -8,12 +8,12 @@ class Telegram:
     API_HASH = str(env.get("API_HASH"))
     BOT_TOKEN = str(env.get("BOT_TOKEN"))
     OWNER_ID = int(env.get('OWNER_ID', '7978482443'))
-    WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
+    WORKERS = int(env.get("WORKERS", "7"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL'))
-    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "Telegram"))
+    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "Movie_loverzz"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
-    FORCE_SUB_ID = env.get('FORCE_SUB_ID', None)
-    FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', False)
+    FORCE_SUB_ID = env.get('FORCE_SUB_ID', -1002230197603)
+    FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', True)
     FORCE_SUB = True if str(FORCE_SUB).lower() == "true" else False
     SLEEP_THRESHOLD = int(env.get("SLEEP_THRESHOLD", "60"))
     FILE_PIC = env.get('FILE_PIC', "https://graph.org/file/5bb9935be0229adf98b73.jpg")
